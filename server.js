@@ -10,7 +10,7 @@ const usersRouter = require('./src/routers/users.router')
 const mailer = require('./src/routers/mailer.router')
 const adminRouter = require('./src/routers/admin.router')
 
-const MONGO_URL = process.env.MONGO_URL || 'mongodb+srv://suvra123:01711536682Suv@nutriotionbee.qqsv8.mongodb.net/nutriotionBee?retryWrites=true&w=majority';
+const MONGO_URL = 'mongodb+srv://suvra123:01711536682Suv@nutriotionbee.qqsv8.mongodb.net/nutriotionBee?retryWrites=true&w=majority';
 const PORT = process.env.PORT || 4040;
 
 const app = express()
