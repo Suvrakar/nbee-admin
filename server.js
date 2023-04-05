@@ -6,7 +6,7 @@ const mongoose = require('mongoose')
 const path = require('path');
 const nodemailer = require('nodemailer');
 
-const usersRouter = require('./src/routers/users.router')
+// const usersRouter = require('./src/routers/users.router')
 const mailer = require('./src/routers/mailer.router')
 const adminRouter = require('./src/routers/admin.router')
 
@@ -26,6 +26,7 @@ app.set('views', path.join(__dirname, './views'));
 // app.use('/users', usersRouter)
 app.use('/mail', mailer)
 app.use('/admin', adminRouter)
+// app.use('/', adminRouter)
 
 
 app.get('/', (req, res) => res.send('Hello World!'))
