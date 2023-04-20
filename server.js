@@ -26,7 +26,6 @@ app.set('views', path.join(__dirname, './views'));
 // app.use('/users', usersRouter)
 app.use('/mail', mailer)
 app.use('/admin', adminRouter)
-// app.use('/', adminRouter)
 
 
 app.get('/', (req, res) => res.send('Hello World!'))
