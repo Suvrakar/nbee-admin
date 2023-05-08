@@ -6,7 +6,7 @@ const mongoose = require('mongoose')
 const path = require('path');
 const nodemailer = require('nodemailer');
 
-// const usersRouter = require('./src/routers/users.router')
+const usersRouter = require('./src/routers/users.router')
 const mailer = require('./src/routers/mailer.router')
 const adminRouter = require('./src/routers/admin.router')
 
